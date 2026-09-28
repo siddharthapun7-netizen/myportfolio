@@ -1,40 +1,128 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Hello</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhartha Pun - Portfolio</title>
 </head>
 <body>
-            <img src ="images/profile.jpeg" alt="logo" width="80">
-        <img src ="images/Logo.png" alt="logo" width="120">
-        
+    <header>
+        <img src="images/logo2.png" alt="Siddhartha Pun Logo">
+        <h1>Home</h1>
         <nav>
-            <u1>
-                <li><a herf="#">Home</a></li>
-                <li><a herf="#">About</a></li>
-                <li><a herf="#">Projects</a></li>
-                <li><a herf="#">Skills</a></li>
-                <li><a herf="#">Contact</a></li>
-            </u1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#myproject">My Project</a></li>
+                <li><a href="#myskills">My Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
+         <div class="search-bar">
         <form>
+            <label for="search">Search</label>
+            <input type="text" id="search" placeholder="Search here">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</header>
+    <main>
+        <section id="aboutme">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Siddhartha Pun Profile">
+            <p>
+                My name is Siddhartha Pun, and I am from Chitwan, Nepal. I am 19 years old.
+                I completed my +2 education from Southwestern State College (SWSC).
+                I am a simple, hardworking, and curious person who likes to learn new things
+                and improve myself.
+            </p>
+        </section>
+        <h2 id="myproject">My Project</h2>
+<article>
+    <h3>E-commerce Website</h3>
+    <p>An e-commerce website is an online platform that allows customers to browse, select, and purchase products through the internet.</p>
+    </article>
+<article><h3>Company Database System</h3> <p>Created using MySQL to store and manage company records.</p></article>
+<article><h3>Enterprise Network Security</h3><p>Designed and configured using Cisco Packet Tracer.</p></article>
+<article><h3>Personal Portfolio Website</h3><p>Built using semantic HTML5 to showcase my background, skills and projects.</p></article>
+<article><h3>Library Management System:</h3><p>Developed using Java to manage book records, member details, and issue date.</p></article>
+        <section id="myskills">
+            <h2>My Skills</h2>
+            <dl>
+                <dt>Programming Languages</dt>
+                <dd>C, C++, Java, Python</dd>
+                <dt>Database</dt>
+                <dd>SQL, Oracle, MongoDB, PostgreSQL</dd>
+                <dt>Tools</dt>
+                <dd>VS Code, MS Word, Excel, MS PowerPoint</dd>
+            </dl>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>S.N</th>
+                        <th>Level</th>
+                        <th>Completion Date</th>
+                        <th>Institution</th>
+                        <th>G.P.A</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>School</td>
+                        <td>2023</td>
+                        <td>St. Joseph's School</td>
+                        <td>3.64</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>+2</td>
+                        <td>2025</td>
+                        <td>Southwestern State College (SWSC)</td>
+                        <td>3.69</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Bachelor</td>
+                        <td>Ongoing</td>
+                        <td>MIT</td>
+                        <td>Ongoing</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" placeholder="Name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="Email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" placeholder="Message"></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    </main>
+    <footer>
+        <h2>Find Me On</h2>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <img src="images/facebook.webp" alt="Facebook" width="50" height="50">
+        </a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <img src="images/insta.webp" alt="Instagram" width="50" height="50">
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+            <img src="images/Linkedin.webp" alt="LinkedIn" width="50" height="45">
+        </a>
+        <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
+            <img src="images/whatsapp.webp" alt="WhatsApp" width="50" height="50">
+        </a>
 
-            <input type="text" placeholder="search....">
-            <button type="Submit">Search</button>       </form>
-    <h1>About Me</h1>
-    <p>My name is Siddhartha Pun, and I am from Chitwan, Nepal. I am 19 years old. I completed my +2 education from Southwestern State College (SWSC). I am a simple, hardworking, and curious person who likes to learn new things and improve myself. I believe that education is not only about getting good grades but also about gaining knowledge and becoming a better person. I am currently focused on my further studies and future career, and I hope to achieve my goals through continuous learning, hard work, and dedication.
-</p>
-    <h2>My projects</h2>
-    <li>School Management System: Developed using C programming.</li>
-    <li>Company Database System: Created using MySQL.</li>
-    <li>Enterprise Network Security: Designed and configured using Cisco Packet Tracer.</li>
-    <li>Network Traffic Analysis: Analyzed network packets using Wireshark.</li>
-    <h3>My Skills</h3>
-    <li>CSS</li>
-    <li>C Programming</li>
-    <li>DBMS & SQL</li>
-    <li>Networking</li>
-    <li>Problem Solving</li>
-<h3>Contact Me:</h3>
-<li>Email: siddharthapun72gmail.com</li>
-<li>Phone no: 9820264730</li>
-</body>
+        <p>&copy; 2026 Siddhartha Pun. All rights reserved.</p>
+    </footer>
 </html>
